@@ -1,0 +1,169 @@
+/* SIDE BAR  */
+.sidebar {
+    width: 200px;
+    background-color: #dbdbd4;
+    color: white;
+    padding: 10px;
+    height: 650px;
+  }
+  
+  .sidebar-button {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: background-color 0.3s;
+    /* font-family: Poppins; */
+    font-size: larger;
+  }
+  
+  .sidebar-button:hover {
+    background-color: white;
+  }
+  
+  .sidebar-button:focus {
+    background-color: white;
+  }
+
+  .signout-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signout-button:hover {
+    background-color: #333;
+  }
+  
+  
+ /* PROGRESS BAR  */
+
+ .progress-bar-container {
+    width: 1130px;
+    height: 30px; /* Adjust the height of the progress bar */
+    background-color: #f0f0f0; /* Background color of the progress bar container */
+    position: fixed;
+    top: 100px; /* 100px from the top */
+    margin-left: 255px;
+    border-radius: 10px;
+  }
+
+
+  .progress-bar {
+    width: 226px;
+    height: 30px;
+    background-color: #4CAF50; /* Green color, adjust as needed */
+    position: fixed;
+    top: 100px; /* 100px from the top */ 
+    transition: width 0.5s;
+    border-radius: 10px;  
+  }
+  
+
+/* TEXT BOX */
+
+
+  .text-box {
+ 
+    top: 180px;   position: fixed;
+    left: 255px;
+    width: 1155px;
+    height: 1111px;
+    max-width: calc(100% - 200px); 
+    max-height: calc(100% - 130px);     
+    background-color: #fff; /* White background color, adjust as needed */
+    border-radius: 10px; /* Rounded corners, adjust as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow, adjust as needed */
+    padding: 20px; /* Add padding inside the text box */
+    overflow: auto; /* Add scroll if needed */
+    color: black;
+  }
+
+  h1 {
+    margin-bottom: 10px; /* Spacing below the main heading */
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px; /* Spacing below each label */
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align children to the left */
+  }
+
+  input[type="number"] {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align children to the left */
+  }
+  
+  .address{
+    width: 68%;
+    padding: 5px;
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align children to the left */
+  }
+
+ 
+   /* BUTTONS */ 
+
+   /* Add this to your existing CSS */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px; /* Adjust spacing between buttons and textarea */
+  }
+  
+  .submit-button,
+  .next-button {
+    padding: 10px 20px;
+    margin: 0 10px; /* Adjust spacing between buttons */
+  }
+  
+  .submit-button {
+    background-color: red; /* Green color, adjust as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .next-button {
+    background-color: #333; /* Dark color, adjust as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover,
+  .next-button:hover {
+    background-color: #3E8E41; /* Hover color, adjust as needed */
+  }
+  

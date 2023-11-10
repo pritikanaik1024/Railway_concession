@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import the Link component from React Router
 import './Signup.css'
 
 function Signup() {
@@ -13,12 +14,14 @@ function Signup() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission here
+    // After handling the submission, you can navigate to the dashboard page
+    // using the <Link> component.
   };
 
   return (
     <div className="sign-up-form">
        <img src="./dmce-logo.png" />
-      <h2>Sign Up</h2>
+      <h2>Sign Up </h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Email Address</label>
@@ -46,9 +49,13 @@ function Signup() {
             {showPassword ? 'Hide' : 'Show'}
           </span>
         </div>
-        <button type="submit">Sign Up</button>
+        <Link to="/Dashboard"> {/* Use the Link component to navigate to the dashboard page */}
+          <button type="submit">Sign Up</button>
+        </Link>
       </form>
     </div>
   );
 }
+
 export default Signup;
+

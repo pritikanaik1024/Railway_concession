@@ -6,57 +6,74 @@ import {Link} from "react-router-dom";
   return (
     <div> 
         <div className= "image-section">
-      <div className="image-text">
-        <h1>
-         Welcome <br/> To <br/> DMCE CONSESSIONS <br/>
-          </h1>
-        <p>Get Railway and Bus Consession Online!</p>
-        <br/>
-        <Link to="/Signup" className="signup-button">Sign Up</Link>
-      </div>
-    </div>
-    
-          <br/>
-         <div class="announcement-section">
-            <div class="announcement-text">
-              <p>Important Announcement: Concessions will be provided after Admissions.</p>
+            <div className="image-text">
+                <div className='heading'>
+                Welcome <br/> To <br/> DMCE CONSESSIONS <br/>
+                </div>
+              <p>Get Railway and Bus Consession Online!</p>
+              <br/>
+              <Link to="/Signup" className="signup-button">Sign Up</Link>
             </div>
           </div>
+    
+               <br/>
+
+             <div class="announcement-section">
+                <div class="announcement-text">
+                  <p>Important Announcement: Concessions will be provided after Admissions.</p>
+                 </div>
+             </div>
+
 
         <div class="text-boxes">
-          <div class="text-box">
-            <p>NOTICE:</p>
-            <p>Carry Fee reciept to issue concession</p>
-            <br/>
-            <p>original copy of Fee reciept is to be uploaded</p>
-            <br/>
-            <p>The scanned image should be readable</p>
-            <br/>
-            <p>The Reciept uploaded should be of current academic year</p>
+          <div class="text-box-out">
+            <div className='heading-notice'>
+              Notice
+            </div>
+            <div>
+            <p>Carry Fee reciept to issue concession
+              <br/>
+              Original copy of Fee reciept is to be uploaded
+              <br/>
+              The scanned image should be readable
+              <br/>
+              The Reciept uploaded should be of current academic year
+            </p>
+            </div>
           </div>
-          <div class="text-box">
-          <p>NOTICE:</p>
-            <p>Provide valid Aadhar poof</p>
-            <br/>
-            <p>original copy of Aadhar card is to be uploaded</p>
-            <br/>
-            <p>The scanned image should be readable</p>
-            <br/>
-            <p>Provide Correct Aadhar number</p>
+          <div class="text-box-out">
+          <div className='heading-notice'>
+              Notice
+            </div>
+            <div>
+            <p>Carry Fee reciept to issue concession
+              <br/>
+              Original copy of Fee reciept is to be uploaded
+              <br/>
+              The scanned image should be readable
+              <br/>
+              The Reciept uploaded should be of current academic year
+            </p>
+            </div>
           </div>
-          <div class="text-box">
-          <p>NOTICE:</p>
-            <p>Provide valid college ID card</p>
-            <br/>
-            <p>original copy of college ID card is to be uploaded</p>
-            <br/>
-            <p>The scanned image should be readable</p>
-            <br/>
-            <p>The ID card uploaded should be of current academic year</p>
+          <div class="text-box-out">
+          <div className='heading-notice'>
+              Notice
+            </div>
+            <div>
+            <p>Carry Fee reciept to issue concession
+              <br/>
+              Original copy of Fee reciept is to be uploaded
+              <br/>
+              The scanned image should be readable
+              <br/>
+              The Reciept uploaded should be of current academic year
+            </p>
+            </div>
           </div>
         </div>
 
-      <div className="map-view">
+        <div className="map-view">
           <iframe
           title="Map View"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.1684123448975!2
