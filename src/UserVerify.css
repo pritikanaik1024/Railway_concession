@@ -1,4 +1,3 @@
-/* SIDE BAR  */
 .sidebar {
     width: 200px;
     background-color: #dbdbd4;
@@ -42,10 +41,8 @@
     background-color: #333;
   }
   
-  
- /* PROGRESS BAR  */
-
- .progress-bar-container {
+  /* PROGRESS BAR  */
+  .progress-bar-container {
     width: 1130px;
     height: 30px; /* Adjust the height of the progress bar */
     background-color: #f0f0f0; /* Background color of the progress bar container */
@@ -56,21 +53,20 @@
   }
 
 
-  .progress-bar {
-    width: 282.5px;
+  .progress-bar-UserVerify {
+    width: 1130px;
     height: 30px;
     background-color: #4CAF50; /* Green color, adjust as needed */
     position: fixed;
     top: 100px; /* 100px from the top */ 
     transition: width 0.5s;
-    border-radius: 10px;  
+    border-radius: 10px; 
   }
-  
 
-/* TEXT BOX */
+  /* TEXT BOX */
 
 
-  .text-box {
+  .text-box-verify {
  
     top: 180px;   position: fixed;
     left: 255px;
@@ -84,6 +80,10 @@
     padding: 20px; /* Add padding inside the text box */
     overflow: auto; /* Add scroll if needed */
     color: black;
+    background-image: url('verified.jpg'); /* Replace 'your-image-url.jpg' with your image URL */
+    background-size: auto; /* Adjust as needed, 'cover' or 'contain' */
+    background-position: center center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
   }
 
   h1 {

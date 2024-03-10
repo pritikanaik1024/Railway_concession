@@ -14,6 +14,9 @@ function Status() {
     <Link to="/Importantdocuments" className="sidebar-button">
       Important Documents
     </Link>
+    <Link to="/UserVerify" className="sidebar-button">
+        Verification Status
+      </Link>
     <Link to="/Applicationform" className="sidebar-button">
       Application Form
     </Link>
@@ -29,9 +32,9 @@ function Status() {
 
 <div>
       
-<div className="progress-bar-container">
+{/* <div className="progress-bar-container">
         <div className="progress-bar-status"></div>
-      </div>
+      </div> */}
 
         <div className="text-box">
             <h1>Application Status</h1>

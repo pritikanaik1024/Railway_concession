@@ -18,15 +18,15 @@ import {Link} from "react-router-dom";
     
                <br/>
 
-             <div class="announcement-section">
-                <div class="announcement-text">
+             <div className="announcement-section">
+                <div className="announcement-text">
                   <p>Important Announcement: Concessions will be provided after Admissions.</p>
                  </div>
              </div>
 
 
-        <div class="text-boxes">
-          <div class="text-box-out">
+        <div className="text-boxes">
+          <div className="text-box-out">
             <div className='heading-notice'>
               Notice
             </div>
@@ -41,7 +41,7 @@ import {Link} from "react-router-dom";
             </p>
             </div>
           </div>
-          <div class="text-box-out">
+          <div className="text-box-out">
           <div className='heading-notice'>
               Notice
             </div>
@@ -56,7 +56,7 @@ import {Link} from "react-router-dom";
             </p>
             </div>
           </div>
-          <div class="text-box-out">
+          <div className="text-box-out">
           <div className='heading-notice'>
               Notice
             </div>

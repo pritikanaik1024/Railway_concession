@@ -6,13 +6,19 @@ import Aboutus from './Aboutus'
 import Contactus from './Contactus'
 import Login from './Login'
 import Dashboard from './Dashboard'
+import UserVerify from './UserVerify'
 import Personalinformation from './Personalinformation'
 import Academicinformation from './Academicinformation'
 import Importantdocuments from './Importantdocuments'
 import Applicationform from './Applicationform'
 import Status from './Status'
+import AdminProfiles from './AdminProfiles'
+import AdminConcessionapp from './AdminConcessionapp'
+import AdminConcessionreview from './AdminConcessionreview'
+import AdminDash from './AdminDash'
+
 import {
-  BrowserRouter as Router, Switch ,Route, Routes
+  BrowserRouter as Router ,Route, Routes
 } from "react-router-dom";
 export default function App() {
   return (
@@ -31,6 +37,11 @@ export default function App() {
       <Route path='/Importantdocuments' element={<Importantdocuments/>}></Route>
       <Route path='/Applicationform' element={<Applicationform/>}></Route>
       <Route path='/Status' element={<Status/>}></Route>
+      <Route path='/AdminDash' element={<AdminDash/>}></Route>
+      <Route path='/UserVerify' element={<UserVerify/>}></Route>
+      <Route path='/AdminProfiles' element={<AdminProfiles/>}></Route>
+      <Route path='/AdminConcessionapp' element={<AdminConcessionapp/>}></Route>
+      <Route path='/AdminConcessionreview' element={<AdminConcessionreview/>}></Route>
       </Routes>
       </Router>
     </div>

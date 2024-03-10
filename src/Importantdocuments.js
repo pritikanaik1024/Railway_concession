@@ -18,6 +18,9 @@ function Importantdocuments() {
     <Link to="/Importantdocuments" className="sidebar-button">
       Important Documents
     </Link>
+    <Link to="/UserVerify" className="sidebar-button">
+        Verification Status
+      </Link>
     <Link to="/Applicationform" className="sidebar-button">
       Application Form
     </Link>
@@ -85,10 +88,10 @@ function Importantdocuments() {
             </div>
             
             <div className="button-container-important">
-            <Link to ='/Applicationform'>
+            <Link to ='/UserVerify'>
             <button className="submit-button-important">Submit</button>
             </Link>
-            <Link to ='/Applicationform'>
+            <Link to ='/UserVerify'>
             <button className="next-button-important">Next</button>
             </Link>
           </div>

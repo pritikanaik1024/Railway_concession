@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Login.css"
+import { Link } from 'react-router-dom';
 
 export default function Login() {
 
@@ -42,7 +43,11 @@ export default function Login() {
             {showPassword ? 'Hide' : 'Show'}
           </span>
         </div>
-        <button type="submit">Login</button>
+        <div>
+        <Link to="/AdminDash"> {/* Use the Link component to navigate to the dashboard page */}
+          <button type="submit">Login</button>
+        </Link>
+        </div>
       </form>
     </div>
   );

@@ -25,6 +25,9 @@ function Applicationform() {
     <Link to="/Importantdocuments" className="sidebar-button">
       Important Documents
     </Link>
+    <Link to="/UserVerify" className="sidebar-button">
+        Verification Status
+      </Link>
     <Link to="/Applicationform" className="sidebar-button">
       Application Form
     </Link>
@@ -40,9 +43,9 @@ function Applicationform() {
 
 <div>
       
-<div className="progress-bar-container">
+{/* <div className="progress-bar-container">
         <div className="progress-bar-application"></div>
-      </div>
+      </div> */}
 
         <div className="text-box">
             <h1>Application form</h1>

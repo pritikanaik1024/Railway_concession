@@ -19,6 +19,9 @@ function Academicinformation() {
     <Link to="/Importantdocuments" className="sidebar-button">
       Important Documents
     </Link>
+    <Link to="/UserVerify" className="sidebar-button">
+        Verification Status
+      </Link>
     <Link to="/Applicationform" className="sidebar-button">
       Application Form
     </Link>

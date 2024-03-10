@@ -1,18 +1,8 @@
-import React from 'react';
+import React from 'react'
+import './UserVerify.css'
 import { Link } from 'react-router-dom';
-import './Dashboard.css';
 
-function Dashboard() {
-
-    // Will be used when dealing with database
-    // const history = useHistory();
-    // const handleSignOut = () => {
-    //     // Implement your sign-out logic here
-    //     // For example, clear authentication state or tokens
-    //     // Then redirect to the home page
-    //     history.push('/'); 
-    //   };
-
+function UserVerify() {
   return (
     <div className="sidebar">
       <Link to="/Personalinformation" className="sidebar-button">
@@ -39,8 +29,19 @@ function Dashboard() {
       {/* <button onClick={handleSignOut} className="signout-button"> will be used when dealing with database
         Sign Out
       </button> */}
+
+        <div className="progress-bar-container">
+        <div className="progress-bar-UserVerify"></div>
+        </div>
+
+
+        <div className="text-box-verify">
+            <h1>Verification Status</h1>
+      </div>
+
+
     </div>
-  );
+  )
 }
 
-export default Dashboard;
+export default UserVerify

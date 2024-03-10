@@ -10,6 +10,7 @@
     width: 1000px;
     margin: auto;
     border-radius: 50px;
+    position: relative;
     
 }
 
@@ -25,12 +26,14 @@
 @media (max-width: 768px) {
     .announcement-text {
         font-size: 14px;
+        width: 90%;
     }
 }
 
 /* Style the text boxes section */
 .text-boxes {
     display: flex;
+    flex-wrap: wrap; 
     justify-content: space-between;
     padding: 20px;
     
@@ -46,6 +49,7 @@
     height: 285px;
     border-radius: 50px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 
@@ -69,6 +73,7 @@
     position: absolute;
     width: 100%;
     font-size: large;
+    position: relative;     
   }
   
 
