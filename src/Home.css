@@ -22,13 +22,8 @@
     color: black;
 }
 
-/* Media query for responsiveness */
-@media (max-width: 768px) {
-    .announcement-text {
-        font-size: 14px;
-        width: 90%;
-    }
-}
+
+
 
 /* Style the text boxes section */
 .text-boxes {
